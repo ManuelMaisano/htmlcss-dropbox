@@ -54,9 +54,7 @@ body {
 .f-column{
     flex-direction: column;
 }
-.f-center{
-    ;
-}
+
 /* display */
 
 .display-block {
@@ -139,4 +137,7 @@ footer li{
 }
 .margin-left{
     margin-right: 50px;
+}
+.language {
+    color: #999999;
 }
