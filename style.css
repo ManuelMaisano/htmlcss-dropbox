@@ -40,12 +40,12 @@ button {
 }
 
 .container-medium {
-    width: 70%;
+    width: 1200px
     margin: auto;
 }
 
 .container-small {
-    width: 50%;
+    width: 1000px
     margin: 0 5rem;
 }
 
@@ -127,6 +127,7 @@ nav {
 .jumbotron {
     width: 100%;
     background-color: var(--color-bg-hero);
+    position: relative;
 }
 
 .jumbotron-title {
@@ -149,7 +150,7 @@ nav {
 }
 
 .jumbotron-img {
-    margin-bottom: -8rem;
+    margin-bottom: -8em;
 }
 
 .scroll-button{
