@@ -133,21 +133,24 @@ nav {
 }
 
 .jumbotron-title {
-    text-align: center;
+    
     margin-top: 10rem;
-    font-size: xx-large;
+    font-size: 2.7em;
+    font-weight: 900;
 }
 
 .jumbotron-body {
     margin: auto;
     display: flex;
     padding: 3em 3rem 0;
+    
 }
 
 .jumbotron-text {
-    width: 60%;
+    width: 40%;
     display: flex;
     flex-direction: column;
+    margin-left: -50px;
     gap: 3rem;
 }
 
@@ -157,7 +160,7 @@ nav {
 }
 #img{
     position: absolute;
-    width: 150%;
+    width: 130%;
 }
 .scroll-button{
     color: black;
