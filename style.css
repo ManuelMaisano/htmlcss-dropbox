@@ -128,7 +128,7 @@ nav {
 .jumbotron {
     background-color: var(--color-bg-hero);
     width: 100%;
-    position: relative;
+    
 
 }
 
@@ -152,10 +152,13 @@ nav {
 }
 
 .jumbotron-img {
-    position: absolute;
+    position: relative;
+    width: 60%;
 }
-
-
+#img{
+    position: absolute;
+    width: 150%;
+}
 .scroll-button{
     color: black;
     font-size: xxx-large;
@@ -306,7 +309,9 @@ nav {
     width: 50%;
 }
 .text-main{
-    padding: 15px;
+    padding: 20px;
+    font-weight: 100;
+    margin-top: 20px;
 }
 
 .square {
