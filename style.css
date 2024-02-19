@@ -282,9 +282,8 @@ nav {
 .left-block,
 .central-block,
 .right-block {
-    width: 450px;
-    aspect-ratio: 1;
-    flex-grow: 1;
+    width: calc(100% / 3);
+    aspect-ratio: 1 / 1;
 }
 
 .central-block {
@@ -299,8 +298,8 @@ nav {
 }
 
 .square {
-    width: 250px;
-    flex-grow: 1;
+    width: 50%;
+    aspect-ratio: 1 / 1 ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -308,7 +307,7 @@ nav {
 
 .logo {
     filter: invert(100%);
-    width: 50%;
+    width: 70%;
 }
 /* color left block */
 #designit{
