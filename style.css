@@ -242,7 +242,7 @@ nav {
     }
 }
 
-/* end find a partner */
+
 
 
 .functions {
@@ -268,11 +268,149 @@ nav {
 /* end functions */
 
 
+/* ----LOGO AREA---- */
+
+.corporate-logo {
+    width: 100%;
+}
+
+.col-3 {
+    margin-top: 5rem;
+    display: flex;
+}
+
+.left-block,
+.central-block,
+.right-block {
+    width: 450px;
+    aspect-ratio: 1;
+    flex-grow: 1;
+}
+
+.central-block {
+    background-color: var(--color-mainblock);
+    font-weight: 100;
+}
+
+.left-block,
+.right-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 250px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    filter: invert(100%);
+    width: 50%;
+}
+/* color left block */
+#designit{
+    background-color: var(--color-block-lightgreen);
+
+}
+#asu{
+    background-color: #62072b;
+   
+}
+#uf{
+    background-color: var(--color-block-lightblue);
+}
+#topps{
+    background-color: var(--color-block-lightred);
+}
+/* color rightblock */
+#wbr{
+    background-color:var(--color-block-darkred) ;
+}
+#hearts{
+    background-color: var(--color-bg-hero);
+}
+#lp{
+    background-color: var(--color-block-darkblue);
+}
+#outdoor{
+    background-color: var(--color-block-yellow);
+}
 
 
+/* ----------- */
+
+section {
+    background-color: var(--color-bg-hero);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+
+    >a.white {
+        border: 1px solid;
+        padding: 1rem;
+        width: fit-content;
+    }
+}
+/* --------- */
 
 
-/* #footer */
+.faq {
+    margin-bottom: 5rem;
+}
+
+.question-box {
+    margin-top: 2rem;
+}
+
+.question {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 2rem 0;
+}
+
+.question:hover .answer {
+    display: block;
+}
+
+.question:hover i.fa-chevron-up {
+    display: inline-block;
+}
+
+.question:hover i.fa-chevron-down {
+    display: none;
+}
+
+.fa-chevron-down {
+    padding: 0 3rem;
+}
+
+i.fa-chevron-up {
+    display: none;
+    padding: 0 3rem;
+}
+
+.answer {
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    display: none;
+}
+
+
+/* end faq */
+
+/*----FOOTER----*/
 footer {
     background-color: var(--color-bg-footer);
     color: white;
