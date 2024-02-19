@@ -40,13 +40,13 @@ button {
 }
 
 .container-medium {
-    width: 1200px
-    margin: auto;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .container-small {
-    width: 1000px
-    margin: 0 5rem;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 ul {
@@ -117,6 +117,7 @@ nav {
 /* #endregion header */
 
 /* #region main */
+
 .center {
     display: flex;
     justify-content: center;
@@ -125,13 +126,12 @@ nav {
 }
 
 .jumbotron {
-    width: 100%;
     background-color: var(--color-bg-hero);
-    position: relative;
+    width: 100%;
 }
 
 .jumbotron-title {
-    margin: auto;
+    text-align: center;
     margin-top: 10rem;
     font-size: xx-large;
 }
@@ -150,7 +150,7 @@ nav {
 }
 
 .jumbotron-img {
-    margin-bottom: -8em;
+    position: relative;
 }
 
 .scroll-button{
@@ -172,7 +172,7 @@ nav {
 
 .col-4 {
     width: calc((100%/12)*4);
-    padding: 1rem;
+    padding: 1em ;
 }
 
 .card {
